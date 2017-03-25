@@ -1,0 +1,40 @@
+@import 'style.scss';
+
+.partners-title{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+
+    position: relative;
+
+    letter-spacing: -1.5px;
+    text-transform: uppercase;
+
+    color: $color4;
+}
+.partners-icons{
+    display: flex;
+
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.partners-icon-block{
+    position: relative;
+
+    display: block;
+    float: left;
+
+    box-sizing: border-box;
+    width: calc(100% / 5);
+    margin-top: 40px;
+    padding: 0 40px;
+}
+.partners-icon-block__link{
+    display: inline-block;
+
+    text-decoration: none;
+}
+.partners-icon-block__link img{
+    width: 100%;
+}
